@@ -13,7 +13,7 @@ parser.add_argument('-d', '--device', type=str, help='Device to use for AI', def
 parser.add_argument('-r', '--refiner', action='store_true', help='Switch to use refiner')
 parser.add_argument('-p', '--prompt', type=str, help='Prompt for image creation', default='test')
 parser.add_argument('-n', '--negprompt', type=str, help='Negative rompt for image creation', default='')
-parser.add_argument('-s', '--samples', type=int, help='Number of samples', default=20)
+parser.add_argument('-s', '--samples', type=int, help='Number of samples', default=30)
 parser.add_argument('-S', '--seed', type=int, help='Seed Value', default=random.randint(0, sys.maxsize))
 parser.add_argument('-R', '--refinesamples', type=int, help='Number refiner of samples', default=20)
 parser.add_argument('-o', '--output', type=str, help='Output Directory', default='output_images')
